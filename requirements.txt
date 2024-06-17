@@ -1,6 +1,6 @@
 mediapipe==0.10.11
 numpy==2.0.0
-opencv_contrib_python==4.9.0.80
+opencv_python==4.10.0.82 
 pyautogui==0.9.54
 tensorflow==2.15.0
 
