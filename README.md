@@ -44,7 +44,7 @@ To set up the project on your local machine, follow these steps:
 
 1. **Run the main script:**
    ```sh
-   python main.py
+   python app.py
    ```
 
 2. **Perform gestures in front of your webcam to navigate your laptop.** The following gestures are recognized:
