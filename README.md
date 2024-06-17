@@ -49,8 +49,10 @@ To set up the project on your local machine, follow these steps:
 
 2. **Perform gestures in front of your webcam to navigate your laptop.** The following gestures are recognized:
    - **Move Mouse:** Move your hand to control the mouse pointer.
-   - **Click:** Pinch or tap gesture to simulate mouse clicks.
-   - **Scroll:** Swipe gestures to simulate scrolling.
+   - **Click:** Closed fist gesture to simulate click action
+   - **Scroll:** Victory (or 2 finger) sign for down-scrolling and 4 finger sign to scroll up
+   - **Switch Windows** Make and hold the OK / Nice symbol to switch between multiple windows
+   - **Switch Tabs** Make the Yo sign with 3 fingers to switch between tabs
 
 3. **Customize gestures** by modifying the gesture recognition logic in `gestures.py`.
 
@@ -61,6 +63,8 @@ This project requires the following Python libraries:
 - OpenCV
 - PyAutoGUI
 - Numpy
+- Tensorflow / Tflite
+- drawings 
 
 Install all dependencies with:
 ```sh
@@ -95,6 +99,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 - [Mediapipe](https://mediapipe.dev/) for providing the hand tracking and gesture recognition model.
 - [OpenCV](https://opencv.org/) for the robust computer vision library.
 - [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest/) for the automation of GUI interactions.
+- [Ivan Goncharav](https://www.youtube.com/watch?v=a99p_fAr6e4&t=896s) for the video explaining the mediapipe code
+- [Original Japanese Repo](https://github.com/Kazuhito00/hand-gesture-recognition-using-mediapipe) for the model code
 
 ---
 
